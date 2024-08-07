@@ -12,7 +12,7 @@ public class RetangleWindow {
         System.out.print("Width: ");
         width = scan.nextDouble();
         // calculo da área e do perímetro
-        area = height * height;
+        area = height * width;
         perimeter = (2 * height) + (2 * width);
         // saída de dados
         System.out.print("Area: " + area + "\n");
