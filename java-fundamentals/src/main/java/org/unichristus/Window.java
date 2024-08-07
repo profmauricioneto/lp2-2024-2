@@ -7,7 +7,7 @@ public class Window {
         double height, width, area, perimeter;
         Scanner scan = new Scanner(System.in);
         Rectangle rectangle = new Rectangle();
-        Triangle triangle = new Triangle();
+//        Triangle triangle = new Triangle();
 
         System.out.print("Width Window: ");
         width = scan.nextDouble();

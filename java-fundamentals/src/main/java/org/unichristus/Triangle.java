@@ -9,6 +9,22 @@ public class Triangle {
         this.height = 0.0;
     }
 
+    public double getBase() {
+        return base;
+    }
+
+    public double getHeight() {
+        return height;
+    }
+
+    public void setBase(double base) {
+        this.base = base;
+    }
+
+    public void setHeight(double height) {
+        this.height = height;
+    }
+
     public double calculateArea() {
         return (base * height) / 2;
     }
