@@ -1,4 +1,4 @@
-package org.unichristus;
+package org.unichristus.javafundamentals;
 
 public class Rectangle {
     private double height;

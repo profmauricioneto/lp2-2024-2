@@ -1,4 +1,4 @@
-package org.unichristus;
+package org.unichristus.javafundamentals;
 
 import java.util.Scanner;
 
