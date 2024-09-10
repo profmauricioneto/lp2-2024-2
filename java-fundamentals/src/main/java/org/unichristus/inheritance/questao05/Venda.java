@@ -26,4 +26,12 @@ public class Venda {
         System.out.println("Funcionário: " + this.funcionario.getNome());
     }
 
+    public Cliente getCliente() {
+        return cliente;
+    }
+
+    public Funcionario getFuncionario() {
+        return funcionario;
+    }
+
 }
