@@ -26,5 +26,10 @@ public class Cliente extends Pessoa {
         compras.add(compra);
     }
 
+    public void apresentarComprasCliente() {
+        for(Venda c: compras) {
+            c.apresentarInformacoes();
+        }
+    }
 
 }

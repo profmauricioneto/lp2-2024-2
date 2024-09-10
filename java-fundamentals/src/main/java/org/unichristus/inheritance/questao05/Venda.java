@@ -19,4 +19,11 @@ public class Venda {
         return codigoVenda;
     }
 
+    public void apresentarInformacoes() {
+        System.out.println("Código da venda: " + this.codigoVenda);
+        System.out.println("Data da venda: " + this.data);
+        System.out.println("Cliente: " + this.cliente.getNome());
+        System.out.println("Funcionário: " + this.funcionario.getNome());
+    }
+
 }

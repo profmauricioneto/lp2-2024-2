@@ -26,5 +26,10 @@ public class Funcionario extends Pessoa {
         vendas.add(venda);
     }
 
+    public void apresentarVendasFuncionario() {
+        for(Venda v: vendas) {
+            v.apresentarInformacoes();
+        }
+    }
 
 }
