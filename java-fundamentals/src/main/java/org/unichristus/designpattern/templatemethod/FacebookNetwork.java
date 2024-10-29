@@ -1,4 +1,4 @@
-package templatemethod;
+package org.unichristus.designpattern.templatemethod;
 
 public class FacebookNetwork extends SocialNetwork {
     public FacebookNetwork(String username, String password) {

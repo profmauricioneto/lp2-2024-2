@@ -1,4 +1,4 @@
-package templatemethod;
+package org.unichristus.designpattern.templatemethod;
 
 import java.io.IOException;
 import java.util.Scanner;

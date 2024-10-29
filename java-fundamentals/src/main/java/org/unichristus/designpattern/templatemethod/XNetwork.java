@@ -1,4 +1,4 @@
-package templatemethod;
+package org.unichristus.designpattern.templatemethod;
 
 public class XNetwork extends SocialNetwork {
     public XNetwork(String username, String password) {
@@ -19,12 +19,12 @@ public class XNetwork extends SocialNetwork {
     @Override
     public boolean sendData(byte[] data) {
         boolean response = true;
-        System.out.println("Mensagem: " + new String(data) + " foi postada no twitter!");
+        System.out.println("Mensagem: " + new String(data) + " foi postada no X!");
         return response;
     }
 
     @Override
     public void log_out() {
-        System.out.println("Saindo do twitter.");
+        System.out.println("Saindo do X.");
     }
 }

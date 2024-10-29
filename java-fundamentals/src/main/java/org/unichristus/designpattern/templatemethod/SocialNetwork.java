@@ -1,4 +1,4 @@
-package templatemethod;
+package org.unichristus.designpattern.templatemethod;
 
 public abstract class SocialNetwork {
     public String username;
