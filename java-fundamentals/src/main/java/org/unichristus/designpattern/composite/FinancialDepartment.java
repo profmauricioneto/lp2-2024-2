@@ -1,4 +1,4 @@
-package composite;
+package org.unichristus.designpattern.composite;
 
 public class FinancialDepartment implements Department {
     public int id;

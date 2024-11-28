@@ -1,4 +1,4 @@
-package composite;
+package org.unichristus.designpattern.composite;
 
 public class University {
     public static void main(String[] args) {
@@ -7,7 +7,7 @@ public class University {
         FinancialDepartment financial = new FinancialDepartment(2, "Equipe Financeira");
         HumanResourceDepartment rh = new HumanResourceDepartment(4, "Equipe RH");
         HeadDepartment allDepartment = new HeadDepartment(3, "Chefia");
-        FinancialDepartment financialOfSales = new FinancialDepartment(4, "Finanças de Vendas");
+        FinancialDepartment financialOfSales = new FinancialDepartment(5, "Finanças de Vendas");
         sales.addSalesDepartment(financialOfSales);
 
         allDepartment.addDepartment(sales);
